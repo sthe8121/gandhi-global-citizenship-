@@ -12,9 +12,4 @@ This standalone educational module features:
 Model used from Sketchfab:
 https://sketchfab.com/3d-models/gandhi-salt-march-3d651051c68842d593ac1ea28084bdc1
 
-## Assets You Need to Add
-- `assets/gmislogo.png` → Please add the GMIS logo image here (filename must be exactly `gmislogo.png`)
-
-## Hosting
-This bundle is GitHub Pages ready. Upload to your repo and ensure the directory structure is preserved.
 

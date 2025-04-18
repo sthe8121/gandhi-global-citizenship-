@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gandhi - Global Citizenship Gallery Walk</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/gmislogo.png" alt="GMIS Logo" height="60">
+    <h1>Gandhi: Global Citizenship & Leadership</h1>
+  </header>
+
+  <section>
+    <div class="sketchfab-embed-wrapper">
+      <iframe title="Gandhi Salt March" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" 
+        allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport 
+        execution-while-not-rendered web-share 
+        src="https://sketchfab.com/models/3d651051c68842d593ac1ea28084bdc1/embed" 
+        style="width: 100%; height: 480px;">
+      </iframe>
+    </div>
+    <div class="text-sm text-gmis-grey my-4 italic">
+      *Tip: Click on the numbered markers in the 3D model to explore who marched with Gandhi. Each annotation reveals key figures and their role in the Salt March.*
+    </div>
+  </section>
+
+  <section class="quiz-section">
+    <p><strong>Quiz:</strong> What was the outcome of the Salt March?</p>
+    <ul>
+      <li><button onclick="checkAnswer(this, false)">Gandhi was arrested and the movement stopped</button></li>
+      <li><button onclick="checkAnswer(this, false)">India immediately gained independence</button></li>
+      <li><button onclick="checkAnswer(this, true)">It sparked nationwide civil disobedience and international attention</button></li>
+      <li><button onclick="checkAnswer(this, false)">The British removed the salt tax</button></li>
+    </ul>
+    <p id="quiz-feedback" class="feedback"></p>
+  </section>
+
+  <blockquote id="gandhi-quote" class="text-gmis-grey italic my-4 text-center text-lg"></blockquote>
+  <button onclick="randomQuote()">New Quote</button>
+
+  <section class="influence-section">
+    <h2>Gandhi’s Influence Worldwide</h2>
+    <div class="card">Martin Luther King Jr. – Adopted nonviolence in the US Civil Rights Movement.</div>
+    <div class="card">Nelson Mandela – Embraced Gandhian ideals during South Africa’s anti-apartheid struggle.</div>
+    <div class="card">César Chávez – Used peaceful protest in US labor movements.</div>
+  </section>
+
+  <section class="timeline">
+    <h2>Key Events</h2>
+    <div class="event">1930: Salt March – Protested British salt monopoly.</div>
+    <div class="event">1942: Quit India Movement – Demanded end to British rule.</div>
+    <div class="event">1947: Indian Independence – Achieved freedom; Gandhi advocated peace.</div>
+  </section>
+
+  <section class="reflection">
+    <h2>Reflection Prompt</h2>
+    <p>How would Gandhi approach a modern global challenge such as climate change or digital surveillance?</p>
+  </section>
+
+  <script src="scripts/quiz.js"></script>
+</body>
+</html>
